@@ -1,0 +1,75 @@
+.home {
+  .user {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 40px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+    &info {
+      .name {
+        margin-bottom: 10px;
+        font-size: 32px;
+      }
+      .access {
+        color: #999;
+      }
+    }
+  }
+  .login-info {
+    p {
+      font-size: 14px;
+      line-height: 28px;
+      color: #999;
+      span {
+        margin-left: 60px;
+        color: #666;
+      }
+    }
+  }
+  .information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .el-card {
+      width: 32%;
+      margin-bottom: 20px;
+    }
+    .icon {
+      width: 80px;
+      height: 80px;
+      font-size: 30px;
+      text-align: center;
+      line-height: 80px;
+      color: #fff;
+    }
+    .detail {
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .num {
+        margin-bottom: 10px;
+        font-size: 30px;
+      }
+      .txt {
+        font-size: 14px;
+        text-align: center;
+        color: #999;
+      }
+    }
+  }
+  .graph {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .el-card {
+      width: 48%;
+    }
+  }
+}

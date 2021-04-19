@@ -1,0 +1,12 @@
+.manage {
+  height: 100%;
+  overflow: hidden;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    ::v-deep .el-form-item:last-child {
+      margin-right: 0;
+    }
+  }
+}
